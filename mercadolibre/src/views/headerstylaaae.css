@@ -1,0 +1,791 @@
+.root {
+    position: relative;
+    width: 1512px;
+    height: 4216px;
+
+    background: #FFFFFF;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 1512px;
+    height: 100px;
+    left: 100px;
+    top: 0px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.002), rgba(255, 255, 255, 0.002)), #FFF159;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+}
+
+.div113 {
+    width: 1200px;
+    height: 92px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.navnav-header-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 11px 1.8px;
+
+    position: absolute;
+    width: 295px;
+    height: 52px;
+    left: 856px;
+    top: 48px;
+}
+
+.crea-tu-cuenta {
+    width: 253.25px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #333333;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.a22 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 5px 0px 9px;
+
+    position: absolute;
+    height: 32px;
+    left: 4px;
+    right: 1041.55px;
+    top: 63px;
+
+    border-radius: 4px;
+}
+
+a-icon21 {
+    position: absolute;
+    width: 134px;
+    height: 34px;
+    left: 10px;
+    top: 11px;
+
+    background: url("public/a24@2x.png");
+}
+
+.span8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px 2.8px;
+
+    width: 140.45px;
+    height: 22px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px -141px;
+}
+
+.ingresa-tu-domicilio {
+    width: 119.65px;
+    height: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    /* or 169% */
+
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.div114 {
+    width: 14.2px;
+    height: 22px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.ul3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 69.3156px 12px 186px;
+    gap: 17px;
+
+    position: absolute;
+    width: 785px;
+    height: 36px;
+    left: 10px;
+    top: 56px;
+
+}
+
+.a23 {
+    width: 78.55px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.categoras {
+    position: absolute;
+    width: 63px;
+    height: 22px;
+    left: 0px;
+    top: -1px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    /* identical to box height, or 169% */
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(51, 51, 51, 0.6);
+
+}
+
+.pseudo8 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 75.55px;
+    top: 5.76px;
+
+    border-width: 0px 1.5px 1.5px 0px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    transform: rotate(45deg);
+}
+
+.ofertas1 {
+    width: 45.39px;
+    height: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    /* or 169% */
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(51, 51, 51, 0.6);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.historial {
+    width: 50.26px;
+    height: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    /* or 169% */
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(51, 51, 51, 0.6);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.a24 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 5.64062px 0px 0px;
+
+    width: 90.64px;
+    height: 22px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.supermercado2 {
+    width: 85px;
+    height: 22px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    /* identical to box height, or 169% */
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(51, 51, 51, 0.6);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.moda {
+    width: 34.97px;
+    height: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    /* or 169% */
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(51, 51, 51, 0.6);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.vender {
+    width: 44.73px;
+    height: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(51, 51, 51, 0.6);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
+
+.ayuda-pqr1 {
+    width: 77.95px;
+    height: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    /* or 169% */
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(51, 51, 51, 0.6);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+}
+
+.anav-cart {
+    position: absolute;
+    width: 25px;
+    height: 21px;
+    right: 9px;
+    top: 67px;
+
+
+
+}
+
+.div115 {
+    position: absolute;
+    width: 16.2px;
+    height: 27px;
+    left: 4.5px;
+    top: -1px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height, or 169% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333333;
+}
+
+.d-nq-743552-mla52573523710-112 {
+    position: absolute;
+    width: 340px;
+    height: 39px;
+    left: 850px;
+    top: 9px;
+
+
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 1px 8px;
+
+    position: absolute;
+    width: 600px;
+    height: 56px;
+    left: 195px;
+    top: 0px;
+
+}
+
+.ingresa-lo-que-quieras-encontr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 7px 15px;
+
+    width: 598px;
+    height: 39px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px -46px;
+}
+
+.divplaceholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 523px;
+    height: 23px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.buscar-productos-marcas {
+    width: 237.31px;
+    height: 23px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.25);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.button7 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 14px;
+
+    width: 46px;
+    height: 39px;
+
+    background: #FFFFFF;
+    border-radius: 0px 2px 2px 0px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.pseudo9 {
+    box-sizing: border-box;
+
+    width: 1px;
+    height: 26px;
+
+    border-left: 1px solid #E6E6E6;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.div116 {
+    width: 16.2px;
+    height: 21px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height, or 131% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #666666;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div110 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 1180px;
+    height: 54px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.div111 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 7px;
+
+    width: 1180px;
+    height: 40px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -1px 0px;
+}
+
+.ul2 {
+    width: 744px;
+    height: 13px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.trabaja-con-nosotros {
+    position: absolute;
+    width: 113px;
+    height: 13px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    /* identical to box height, or 108% */
+
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+
+}
+
+.trminos-y-condiciones {
+    position: absolute;
+    width: 127px;
+    height: 13px;
+    left: 134.97px;
+    top: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    /* identical to box height, or 108% */
+
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+}
+
+.cmo-cuidamos-tu {
+    position: absolute;
+    width: 160px;
+    height: 13px;
+    left: 284.41px;
+    top: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    /* identical to box height, or 108% */
+
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+
+}
+
+.accesibilidad {
+    position: absolute;
+    width: 72px;
+    height: 13px;
+    left: 469.52px;
+    top: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    /* identical to box height, or 108% */
+
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+}
+
+.ayuda-pqr {
+    position: absolute;
+    width: 68px;
+    height: 13px;
+    left: 561.28px;
+    top: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    /* identical to box height, or 108% */
+
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+}
+
+.wwwsicgovco {
+    position: absolute;
+    width: 84px;
+    height: 13px;
+    left: 649.48px;
+    top: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    /* identical to box height, or 108% */
+
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+}
+
+.copyright-1999-2023 {
+    width: 286.98px;
+    height: 17px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+
+    color: #999999;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.carrera-17-numero {
+    width: 299.28px;
+    height: 17px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    /* or 109% */
+
+    display: flex;
+    align-items: center;
+
+    color: #999999;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
