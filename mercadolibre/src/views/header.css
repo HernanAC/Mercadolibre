@@ -97,16 +97,14 @@
     height: 36px;
     left: 10px;
     top: 56px;
-
 }
 
 .logo {
     position: absolute;
     width: 134px;
     height: 34px;
-    left: 10px;
+    left: 60px;
     top: 11px;
-    background: url("public/a24@2x.png");
 }
 
 .domicilio {
