@@ -10,15 +10,9 @@
     background: #EBEBEB;
 }
 
-.novedadesimg {
-    max-width: 1512px;
-    max-height: 340px;
-    display: block;
-    border-radius: 0px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: -22px 0px;
+.novedades {
+    position: absolute;
+    margin-top: -15px;
 }
 
 .buttons {
@@ -29,9 +23,8 @@
     gap: 4px;
     width: 60px;
     height: 6px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    padding-left: 770px;
+    padding-top: 330px;
 }
 
 .button {
@@ -40,9 +33,6 @@
     background: rgba(0, 0, 0, 0.25);
     box-shadow: inset 0px 0px 0px 1px #FFFFFF;
     border-radius: 3px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .button2 {
@@ -51,9 +41,6 @@
     background: #FFFFFF;
     box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .transferencia {
@@ -92,86 +79,32 @@
 .cuotas {
     width: 304.66px;
     height: 130px;
-    flex: none;
-    order: 0;
-    flex-grow: 1;
 }
 
 .banco {
     width: 304.66px;
     height: 130px;
-    flex: none;
-    order: 1;
-    flex-grow: 1;
 }
 
 .efectivo {
     width: 304.66px;
     height: 130px;
-    flex: none;
-    order: 2;
-    flex-grow: 1;
 }
 
-.medios {
-    box-sizing: border-box;
-    position: absolute;
-    width: 270.03px;
-    height: 130px;
-    left: 913.97px;
-    top: 0px;
-    border-left: 1px solid #EEEEEE;
-}
-
-.cuotas2 {
-    position: absolute;
-    width: 125px;
-    height: 20px;
-    left: 84px;
-    top: 24px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-}
+.medios {}
 
 .bancos2 {
-    position: absolute;
-    width: 224px;
-    height: 20px;
-    left: 84px;
-    top: 24px;
+    width: 300px;
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-    display: flex;
-    align-items: center;
     color: #000000;
-}
-
-.efectivo2 {
-    position: absolute;
-    width: 126px;
-    height: 20px;
-    left: 84px;
-    top: 24px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    color: #000000;
+    padding-left: 80px;
+    padding-top: 0px;
+    margin-top: -40px;
 }
 
 .vermas {
-    width: 48px;
     height: 15px;
     left: 84px;
     top: 47px;
@@ -183,13 +116,8 @@
     display: flex;
     align-items: center;
     color: #3483FA;
+    padding-left: 80px;
 }
-
-
-
-
-
-
 
 .ofertas {
     padding: 40px 0px 0px;

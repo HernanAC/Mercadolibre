@@ -1,6 +1,10 @@
 import React from 'react'
 import "./content.css";
 import firstdiv from './public/a@2x.png';
+import creditcardsvg from './public/creditcardsvg.svg';
+import transfersvg from './public/transfersvg.svg';
+import paymentagreementsvg from './public/paymentagreementsvg.svg';
+import viewmoresvg from './public/viewmoresvg.svg';
 import oferta1 from './public/silla.png';
 import oferta2 from './public/microfono.png';
 import oferta3 from './public/razor.png';
@@ -68,22 +72,24 @@ import supermercado8 from './public/supermercado8.png';
 const Content = () => {
   return (
     <div class="content">
-
       <div class="novedades">
-        <img src={firstdiv} alt="" style={{ resizeMode: 'contain', height: 340, width: 1512, }} />
+        <div  style={{ background: `url(${firstdiv})`, height: 340, width: 1512, backgroundSize: 'contain'}}>
+          <ul class="buttons">
+            <lh class="button"></lh>
+            <lh class="button2"></lh>
+            <lh class="button"></lh>
+            <lh class="button"></lh>
+            <lh class="button"></lh>
+            <lh class="button"></lh>
+          </ul>
+        </div>
       </div>
-      <ul class="buttons">
-        <lh class="button"></lh>
-        <lh class="button2"></lh>
-        <lh class="button"></lh>
-        <lh class="button"></lh>
-        <lh class="button"></lh>
-        <lh class="button"></lh>
-      </ul>
+
       <div class="transferencia">
         <div class="transferencia1">
           <div class="cuotas">
-            <div>
+            <img src={creditcardsvg} alt="" style={{ resizeMode: 'contain', height: 48, width: 48, paddingTop: 20, paddingLeft: 20 }} />
+            <div class="bancos2">
               Hasta 48 cuotas
             </div>
             <div class="vermas">
@@ -91,7 +97,8 @@ const Content = () => {
             </div>
           </div>
           <div class="banco">
-            <div >
+            <img src={transfersvg} alt="" style={{ resizeMode: 'contain', height: 48, width: 48, paddingTop: 20, paddingLeft: 20 }} />
+            <div class="bancos2">
               Transferencias desde tu banco
             </div>
             <div class="vermas">
@@ -99,7 +106,8 @@ const Content = () => {
             </div>
           </div>
           <div class="efectivo">
-            <div>
+           <img src={paymentagreementsvg} alt="" style={{ resizeMode: 'contain', height: 48, width: 48, paddingTop: 20, paddingLeft: 20}} />
+            <div class="bancos2" > 
               Paga en efectivo
             </div>
             <div class="vermas">
@@ -108,8 +116,9 @@ const Content = () => {
           </div>
         </div>
         <div class="transferencia2">
+          <img src={viewmoresvg} alt="" style={{ resizeMode: 'contain', height: 48, width: 48, paddingTop: 20, paddingLeft: 20}} />
           <div class="medios">
-            <div>
+            <div class="bancos2">
               Más medios de pago
             </div>
             <div class="vermas">
@@ -257,7 +266,6 @@ const Content = () => {
         </div>
         <div class="beneficios2">
           <div class="beneficios2div">
-         
             <div  style={{ background: `url(${beneficio1})`, resizeMode: 'contain', height: 250, width: 384, backgroundSize: 'contain'}}  >
               <div class="beneficios2detalles1">
                 <div class="beneficiosdiv">
