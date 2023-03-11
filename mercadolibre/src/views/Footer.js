@@ -8,16 +8,14 @@ const Footer = () => {
     <footer >
       <div class="footer">
         <div class="footerdiv1">
-          <div class="ulfooter">
-            <div class="ul1">Trabaja con nosotros </div>
-            <div class="ul2">Términos y condiciones </div>
-            <div class="ul3">Cómo cuidamos tu privacidad </div>
-            <div class="ul4">Accesibilidad </div>
-            <div class="ul5">Ayuda / PQR </div>
-            <div class="ul6">www.sic.gov.co </div>
-            
-          </div>
-
+          <ul class="ulfooter" >
+            <lh class="ul1">Trabaja con nosotros </lh>
+            <lh class="ul2">Términos y condiciones </lh>
+            <lh class="ul3">Cómo cuidamos tu privacidad </lh>
+            <lh class="ul4">Accesibilidad </lh>
+            <lh class="ul5">Ayuda / PQR </lh>
+            <lh class="ul6">www.sic.gov.co</lh>
+          </ul>
           <div class="copyright">
             Copyright © 1999-2023 MercadoLibre Colombia LTDA.
           </div>
@@ -29,7 +27,6 @@ const Footer = () => {
         <img src={img1} alt="" style={{ resizeMode: 'contain', height: 30, width: 141, }} />
         <img src={img2} alt="" style={{ resizeMode: 'contain', height: 34, width: 200, }} />
         </div>
-
       </div>
     </footer>
   )

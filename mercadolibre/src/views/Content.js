@@ -9,9 +9,9 @@ import oferta5 from './public/cortina.png';
 import beneficio1 from './public/beneficio1.png';
 import beneficio2 from './public/beneficio2.png';
 import beneficio3 from './public/beneficio3.png';
-import disney from './public/cortina.png';
-import hbo from './public/cortina.png';
-import paramount from './public/cortina.png';
+import disney from './public/disney.png';
+import hbo from './public/hbo.png';
+import paramount from './public/paramount.png';
 import descubre1 from './public/descubre1.png';
 import descubre2 from './public/descubre2.png';
 import populares1 from './public/populares1.svg';
@@ -68,6 +68,7 @@ import supermercado8 from './public/supermercado8.png';
 const Content = () => {
   return (
     <div class="content">
+
       <div class="novedades">
         <img src={firstdiv} alt="" style={{ resizeMode: 'contain', height: 340, width: 1512, }} />
       </div>
@@ -118,10 +119,9 @@ const Content = () => {
         </div>
       </div>
 
-
       <div class="ofertas">
         <div class="ofertas1">
-          <div class="ofertastitulo">
+          <div class="ofertastitulo ">
             Ofertas
           </div>  
           <div class="ofertastitulo2">
@@ -203,23 +203,20 @@ const Content = () => {
         </div>
       </div>
 
-
       <div class="suscribete">
         <div class="suscribete1">
           <div class="nivel6">
             Suscríbete al nivel 6
           </div>
-          <div class="mesdiv">
-            <div class="mesprecio"> $ 50.690 </div>
-            <div class="mesprecionuevo">
-              <div class="pormes">/mes</div>
-              <div class="pormesprecio">
-                <div class="pormespreciofinal">
-                  $17.899
+          <div class="mespseudo">
+            <div class="mesdiv">
+              <div class="mesprecio"> $ 50.690 </div>
+              <div class="pormespreciofinal">
+                $17.899
+                <div class="mesprecionuevo">
+                  <div class="pormes">/mes</div>
                 </div>
               </div>
-            </div>
-            <div class="mespseudo">
             </div>
           </div>
         </div>
@@ -249,7 +246,6 @@ const Content = () => {
         </div>
       </div>
 
-
       <div class="beneficios">
         <div class="beneficios1">
           <div class="beneficios1texto1">
@@ -261,36 +257,39 @@ const Content = () => {
         </div>
         <div class="beneficios2">
           <div class="beneficios2div">
-            
-            <div class="beneficios2detalles3">
-              <img src={beneficio1} alt="" style={{ resizeMode: 'contain', height: 250, width: 384, }} />
-            </div>
-              <div class="disney">
-              </div>
-            
-            <div class="beneficios2detalles2">
-              <img src={beneficio2} alt="" style={{ resizeMode: 'contain', height: 250, width: 384, }} />
-            </div>
-          
-              <div class="hbo">
-              </div>
-            
-            <div class="beneficios2detalles3">
-              <img src={beneficio3} alt="" style={{ resizeMode: 'contain', height: 250, width: 384, }} />
-             
-            </div>
-            
-              
-              <div class="paramount">
-                <div class="paramountimg">
+         
+            <div  style={{ background: `url(${beneficio1})`, resizeMode: 'contain', height: 250, width: 384, backgroundSize: 'contain'}}  >
+              <div class="beneficios2detalles1">
+                <div class="beneficiosdiv">
+                  <img src={disney} alt="" style={{ resizeMode: 'contain', height: 80, width: 80, paddingLeft: 16}} />
+                  <div class="hastaoff">Sin cargo con el nivel 6</div>
+                  <div class="marca">Disney+ y Star+</div>
                 </div>
-                
               </div>
             </div>
-          
+            <div  style={{ background: `url(${beneficio2})`, resizeMode: 'contain', height: 250, width: 384, backgroundSize: 'contain'}}  >
+              <div class="beneficios2detalles2">
+                <div class="beneficiosdiv">
+                  <img src={hbo} alt="" style={{ resizeMode: 'contain', height: 80, width: 80, paddingLeft: 16}} />
+                  <div class="diasgratis">7 DÍAS GRATIS</div>
+                  <div class="hastaoff">Hasta 50% OFF</div>
+                  <div class="marca">HBO Max</div>
+                </div>
+              </div>
+            </div>
+            <div  style={{ background: `url(${beneficio3})`, resizeMode: 'contain', height: 250, width: 384, backgroundSize: 'contain'}}  >
+              <div class="beneficios2detalles3">
+                <div class="beneficiosdiv">
+                  <img src={paramount} alt="" style={{ resizeMode: 'contain', height: 80, width: 80, paddingLeft: 16 }} />
+                  <div class="diasgratis">7 DÍAS GRATIS</div>
+                  <div class="hastaoff">Hasta 50% OFF</div>
+                  <div class="marca">Paramount+</div>
+                </div>
+              </div>
+            </div>
+            </div>
         </div>
       </div>
-
 
       <div class="descubre">
         <div class="descubretexto">
@@ -304,8 +303,10 @@ const Content = () => {
               <div class="descubrediv22texto3">HASTA 50% OFF</div>
             </div>
             <img src={descubre1} alt="" class="descubreimg2" style={{ resizeMode: 'contain', height: 250, width: 289.84, }} />
+            <div class="descubrebutton">
+              <div class="descubrebuttontexto">  Ver más</div>
+            </div>
           </div>
-
           <div class="descubrediv2">
             <div class="descubrediv22">
               <div class="descubrediv22texto1">SUSCRÍBETE AL NIVEL 6</div>
@@ -313,10 +314,14 @@ const Content = () => {
               <div class="descubrediv22texto3">$17.899 cada mes</div>
             </div>
             <img src={descubre2} alt="" class="descubreimg2" style={{ resizeMode: 'contain', height: 250, width: 289.84, }} />
+            <div class="descubrebutton2" >
+              <div class="descubrebuttontexto">
+                Suscribirme
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
 
       <div class="mejores">
         <div class="mejores2">
@@ -332,7 +337,6 @@ const Content = () => {
         <div class="mejores3">
           <div class="mejores3div">
             <div class="mejoresdiv1">
-              <img src={lego} alt="" class="lego" style={{ resizeMode: 'contain', height: 120, width: 120, }} />
               <div class="vertienda">
                 Ver tienda
               </div>
@@ -349,9 +353,9 @@ const Content = () => {
               <div class="legobackground">
                 <img src={legobackground} alt=""  style={{ resizeMode: 'contain', height: 95, width: 284, }} />
               </div>
+              <img src={lego} alt="" class="lego" style={{ resizeMode: 'contain', height: 110, width: 110, }} />
             </div>
             <div class="mejoresdiv2">
-              <img src={xiaomi} alt="" class="xiaomi" style={{ resizeMode: 'contain', height: 120, width: 120, }} />
               <div class="vertienda">
                 Ver tienda
               </div>
@@ -368,9 +372,9 @@ const Content = () => {
               <div class="legobackground">
                 <img src={xiaomibackground} alt=""  style={{ resizeMode: 'contain', height: 95, width: 284, }} />
               </div>
+              <img src={xiaomi} alt="" class="xiaomi" style={{ resizeMode: 'contain', height: 110, width: 110, }} />
             </div>
             <div class="mejoresdiv3">
-              <img src={oster} alt="" class="oster" style={{ resizeMode: 'contain', height: 120, width: 120, }} />
               <div class="vertienda">
                 Ver tienda
               </div>
@@ -387,9 +391,9 @@ const Content = () => {
               <div class="legobackground">
                 <img src={osterbackground} alt=""  style={{ resizeMode: 'contain', height: 95, width: 284, }} />
               </div>
+              <img src={oster} alt="" class="oster" style={{ resizeMode: 'contain', height: 110, width: 110, }} />
             </div>
             <div class="mejoresdiv4">
-              <img src={nikon} alt="" class="nikon" style={{ resizeMode: 'contain', height: 120, width: 120, }} />
               <div class="vertienda">
                 Ver tienda
               </div>
@@ -406,11 +410,11 @@ const Content = () => {
               <div class="legobackground">
                 <img src={nikonbackground} alt=""  style={{ resizeMode: 'contain', height: 95, width: 284, }} />
               </div>
+              <img src={nikon} alt="" class="nikon" style={{ resizeMode: 'contain', height: 110, width: 110, }} />
             </div>
           </div>
         </div>
       </div>  
-
 
       <div class="supermercado">
         <div class="colleciones">
@@ -461,7 +465,6 @@ const Content = () => {
         </div>
       </div>
 
-
       <div class="populares">
         <div class="popularestexto">
           Categorías populares
@@ -504,13 +507,13 @@ const Content = () => {
             </div>
             <div class="populares11">
               <img src={populares8} alt="" style={{ resizeMode: 'contain', height: 48, width: 48, }} />
-              <div class="popularestexto2">Electrónica, Audio y Video</div>
+              <div class="popularestexto2">Electrónica, Audio<br></br>y Video</div>
             </div>
           </div>
           <div class="populares5">
             <div class="populares11">
               <img src={populares9} alt="" style={{ resizeMode: 'contain', height: 48, width: 48, }} />
-              <div class="popularestexto2">Accesorios para Vehículos</div>
+              <div class="popularestexto2">Accesorios<br></br>para Vehículos</div>
             </div>
             <div class="populares11">
               <img src={populares10} alt="" style={{ resizeMode: 'contain', height: 48, width: 48, }} />
@@ -540,31 +543,30 @@ const Content = () => {
         </div>
       </div>
 
-
       <div class="fin">
         <div class="findiv">
           <div class="fin1">
-            <img src={creditcard} alt="" style={{ resizeMode: 'contain', height: 46, width: 66, }} />
+            <img src={creditcard} alt="" style={{ resizeMode: 'contain', height: 46, width: 66, paddingLeft: 168 }} />
             <div class="fin1texto1">Paga con tarjeta o en efectivo</div>
             <div class="fin1texto2">Con Mercado Pago, paga en cuotas y aprovecha la comodidad de financiación que te da tu banco, o hazlo con efectivo en puntos de pago. ¡Y siempre es seguro!</div>
-            <div class="fin1texto3">Cómo pagar con Mercado Pago</div>
+            <div class="fin1texto3">Cómo pagar con Mercado Pago</div> 
           </div>
           <div class="fin2">
-            <img src={shipping} alt="" style={{ resizeMode: 'contain', height: 46, width: 66, }} />
-            <div class="fin2texto1">Envío gratis desde $ 90.000</div>
-            <div class="fin2texto2">Con solo estar registrado en Mercado Libre, tienes envíos gratis en miles de productos seleccionados.</div>
-            <div class="fin2texto3">Conoce más sobre este beneficio</div>
+            <div class="pseudofin1"> </div>
+            <img src={shipping} alt="" style={{ resizeMode: 'contain', height: 46, width: 66, paddingLeft: 169  }} />
+            <div class="fin2texto1" style={{paddingLeft: 13}}>Envío gratis desde $ 90.000</div>
+            <div class="fin2texto2">Con solo estar registrado en Mercado<br></br>Libre, tienes envíos gratis en miles de productos seleccionados.</div>
+            <div class="fin2texto3" style={{top: 200}}>Conoce más sobre este beneficio</div>
+            <div class="pseudofin2"> </div>
           </div>
           <div class="fin3">
-            <img src={protectedsvg} alt="" style={{ resizeMode: 'contain', height: 46, width: 66, }} />
-            <div class="fin3texto1">Seguridad, de principio a fin</div>
-            <div class="fin3texto2">¿No te gusta? ¡Devuélvelo! En Mercado Libre, no hay nada que no puedas hacer, porque estás siempre protegido.</div>
-            <div class="fin3texto3">Cómo te protegemos</div>
+            <img src={protectedsvg} alt="" style={{ resizeMode: 'contain', height: 46, width: 66, paddingLeft: 169 }} />
+            <div class="fin3texto1" style={{paddingLeft: 13}}>Seguridad, de principio a fin</div>
+            <div class="fin3texto2">¿No te gusta? ¡Devuélvelo! En Mercado<br></br>Libre, no hay nada que no puedas hacer, porque estás siempre protegido.</div>
+            <div class="fin3texto3" style={{top: 200, paddingLeft: 40}}>Cómo te protegemos</div>
           </div>
         </div>
       </div>
-      
-
     </div>
   )
 }
