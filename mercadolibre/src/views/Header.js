@@ -1,5 +1,6 @@
 import React from 'react'
 import "./header.css";
+import logo from './public/logo.png'
 
 
 const Header = () => {
@@ -37,6 +38,7 @@ const Header = () => {
             <lh>Mis compras</lh>
           </div>
           <div class="logo">
+          <img src={logo}  alt="" style={{ resizeMode: 'contain', height: 34, width: 134, left: 10, top: 11}} />
           </div>
         </div>
       </div>
